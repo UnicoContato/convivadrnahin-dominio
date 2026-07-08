@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Farmácias Conviva Dr. Nahin: medicamentos, perfumaria, higiene, cuidado e atendimento próximo em Fortaleza e Caucaia.">
+  <meta name="theme-color" content="#09285d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Farmácias Conviva Dr. Nahin">
+  <meta property="og:description" content="Cuidado, confiança e bem-estar para toda a família.">
+  <meta property="og:url" content="https://convivadrnahin.com.br/">
+  <meta property="og:image" content="https://convivadrnahin.com.br/img/1.jpeg">
+  <meta property="og:image:alt" content="Fachada das Farmácias Conviva Dr. Nahin">
+  <title>Farmácias Conviva Dr. Nahin | Cuidando de você</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config={theme:{extend:{colors:{brand:{navy:'#071c3f',blue:'#123d8f',bright:'#1768d5',red:'#ec2d57',ice:'#eef6ff'}},fontFamily:{sans:['Manrope','sans-serif'],display:['Outfit','sans-serif']}}}}
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-slate-700 antialiased overflow-x-hidden">
+  <header id="header" class="fixed inset-x-0 top-0 z-50 transition-transform duration-500">
+    <div class="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
+      <nav class="glass flex h-16 items-center justify-between rounded-2xl px-4 shadow-xl shadow-blue-950/10 lg:px-6" aria-label="Navegação principal">
+        <a href="#inicio" class="flex items-center gap-3" aria-label="Farmácias Conviva - Início">
+          <span class="brand-mark" aria-hidden="true"><i></i></span>
+          <span class="font-display text-lg font-bold leading-none text-brand-navy sm:text-xl">farmácias <strong class="block text-brand-blue">conviva</strong></span>
+        </a>
+        <div class="hidden items-center gap-7 lg:flex">
+          <a class="nav-link" href="#inicio">Início</a><a class="nav-link" href="#sobre">Sobre nós</a><a class="nav-link" href="#servicos">Serviços</a><a class="nav-link" href="#galeria">Galeria</a><a class="nav-link" href="#contato">Contato</a>
+        </div>
+        <a href="https://wa.me/5585986271480?text=Olá%2C%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener" class="btn-whatsapp hidden lg:inline-flex">
+          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          Peça pelo WhatsApp
+        </a>
+        <button id="menu-toggle" class="grid h-11 w-11 place-items-center rounded-xl text-brand-navy lg:hidden" aria-label="Abrir menu" aria-expanded="false"><span class="hamburger"><i></i></span></button>
+      </nav>
+      <div id="mobile-menu" class="glass mt-2 hidden rounded-2xl p-4 shadow-xl lg:hidden">
+        <div class="flex flex-col gap-1"><a class="mobile-link" href="#inicio">Início</a><a class="mobile-link" href="#sobre">Sobre nós</a><a class="mobile-link" href="#servicos">Serviços</a><a class="mobile-link" href="#galeria">Galeria</a><a class="mobile-link" href="#contato">Contato</a></div>
+        <a href="https://wa.me/5585986271480?text=Olá%2C%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener" class="btn-whatsapp mt-3 flex w-full justify-center">Peça pelo WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero relative flex min-h-screen items-end overflow-hidden pb-16 pt-32 sm:items-center sm:pb-0">
+      <div class="hero-bg absolute inset-0"></div><div class="hero-shade absolute inset-0"></div><div class="hero-glow absolute inset-0"></div>
+      <div class="relative z-10 mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div class="max-w-3xl reveal active">
+          <span class="eyebrow text-white"><span class="pulse-dot"></span> Saúde e bem-estar perto de você</span>
+          <h1 class="mt-6 font-display text-5xl font-extrabold leading-[.95] tracking-tight text-white sm:text-7xl lg:text-8xl">Cuidado que<br><span class="text-gradient">faz bem.</span></h1>
+          <p class="mt-6 max-w-xl text-lg leading-relaxed text-blue-50/90 sm:text-xl">Medicamentos, higiene, beleza e um atendimento humano para cuidar de você e de toda a sua família.</p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a href="https://wa.me/5585986271480?text=Olá%2C%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener" class="btn-primary">Faça seu pedido <span>→</span></a>
+            <a href="#sobre" class="btn-ghost">Conheça nossa história</a>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-white/85"><span>✓ Atendimento próximo</span><span>✓ Entrega rápida</span><span>✓ Produtos de qualidade</span></div>
+        </div>
+      </div>
+      <a href="#sobre" class="scroll-hint" aria-label="Rolar para a seção Sobre nós"><span></span></a>
+    </section>
+
+    <section id="sobre" class="section-pad relative overflow-hidden bg-white">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <div class="relative mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-3xl text-center reveal"><span class="section-tag">Nossa essência</span><h2 class="section-title">Uma história feita de <span>cuidado</span></h2><p class="section-lead">Mais do que uma farmácia, somos presença, acolhimento e confiança no dia a dia das famílias.</p></div>
+        <div class="mt-16 grid items-center gap-12 lg:grid-cols-[.9fr_1.1fr] lg:gap-20">
+          <div class="relative reveal-left"><div class="image-stack"><img src="img/6.jpeg" alt="Interior da Farmácia Conviva com produtos e equipe" loading="lazy"><div class="experience-card"><strong>Desde 2018</strong><span>cuidando de pessoas</span></div></div></div>
+          <div class="reveal-right">
+            <h3 class="font-display text-3xl font-bold text-brand-navy">Nossa História</h3>
+            <div class="mt-5 space-y-4 text-base leading-8 text-slate-600">
+              <p>Nossa história foi construída com dedicação, trabalho e, acima de tudo, cuidado com as pessoas. Desde o início, acreditamos que uma farmácia vai muito além da venda de medicamentos: ela é um lugar de acolhimento, orientação e confiança.</p>
+              <p>Ao longo dos anos, conquistamos a credibilidade de nossos clientes por meio de um atendimento humanizado, ético e responsável, sempre colocando a saúde e o bem-estar das pessoas em primeiro lugar.</p>
+              <p>Disponibilizamos medicamentos, produtos de higiene, beleza, cuidados pessoais e itens para toda a família, sempre com qualidade, segurança e procedência garantidas.</p>
+              <p class="font-semibold text-brand-blue">Cuidar de você e da sua família é a nossa maior missão.</p>
+            </div>
+            <div class="mt-8 grid grid-cols-3 gap-3"><div class="mini-stat"><strong>2</strong><span>unidades</span></div><div class="mini-stat"><strong>+6</strong><span>anos de história</span></div><div class="mini-stat"><strong>100%</strong><span>acolhimento</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section-pad bg-brand-ice">
+      <div class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-3xl text-center reveal"><span class="section-tag">Tudo o que você precisa</span><h2 class="section-title">Cuidado em cada <span>detalhe</span></h2><p class="section-lead">Soluções completas para a sua saúde, autoestima e bem-estar.</p></div>
+        <div class="mt-14 grid gap-6 md:grid-cols-3">
+          <article class="service-card reveal" style="--delay:0ms"><div class="icon-box"><svg class="h-12 w-12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor"><path fill="none" d="M0 0H24V24H0z"/><path d="M19 2v2h-2v3c1.657 0 3 1.343 3 3v11c0 .552-.448 1-1 1H5c-.552 0-1-.448-1-1V10c0-1.657 1.343-3 3-3V4H5V2h14zm-2 7H7c-.552 0-1 .448-1 1v10h12V10c0-.552-.448-1-1-1zm-4 2v2h2v2h-2.001L13 17h-2l-.001-2H9v-2h2v-2h2zm2-7H9v3h6V4z"/></g></svg></div><span class="card-number">01</span><h3>Medicamentos</h3><p>Medicamentos com procedência, segurança e orientação responsável para cada necessidade.</p></article>
+          <article class="service-card reveal" style="--delay:120ms"><div class="icon-box"><svg class="h-12 w-12" fill="currentColor" viewBox="0 0 442 442" xmlns="http://www.w3.org/2000/svg"><g><path d="M231.5,50.5c0-5.79-4.71-10.5-10.5-10.5c-5.79,0-10.5,4.71-10.5,10.5S215.21,61,221,61C226.79,61,231.5,56.29,231.5,50.5z"/><path d="M346,163.682h-60V122c0-5.522-4.478-10-10-10h-10V10c0-5.523-4.478-10-10-10h-70c-5.523,0-10,4.477-10,10v102h-10c-5.523,0-10,4.478-10,10v41.682H96c-11.028,0-20,8.972-20,20V422c0,11.028,8.972,20,20,20h250c11.028,0,20-8.972,20-20V183.682C366,172.653,357.028,163.682,346,163.682zM196,20h50v92h-50V20zM96,422V183.682h70c5.523,0,10-4.477,10-10V132h35v71.682h-85c-5.523,0-10,4.478-10,10V392c0,5.522,4.477,10,10,10h190c5.522,0,10-4.478,10-10v-60.892c0-5.522-4.478-10-10-10s-10,4.478-10,10V382H136V223.682h75V352c0,5.522,4.477,10,10,10c5.523,0,10-4.478,10-10V223.682h75V297c0,5.522,4.478,10,10,10s10-4.478,10-10v-83.318c0-5.522-4.478-10-10-10h-85V132h35v41.682c0,5.523,4.478,10,10,10h70L346.002,422H96z"/></g></svg></div><span class="card-number">02</span><h3>Perfumaria & Beleza</h3><p>Seleção completa de higiene, dermocosméticos, cuidados pessoais e beleza para toda a família.</p></article>
+          <article class="service-card reveal" style="--delay:240ms"><div class="icon-box"><svg class="h-12 w-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="6" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M19 2S21 3.2 21 6s-2 4-2 4M17 4s1 .6 1 2-1 2-1 2M17.998 18c.002-.164.002-.331.002-.5 0-2.485-3.582-4.5-8-4.5s-8 2.015-8 4.5S2 22 10 22c2.231 0 3.84-.157 5-.437" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div><span class="card-number">03</span><h3>Atendimento Humano</h3><p>Uma equipe capacitada e atenciosa, pronta para orientar você com carinho e responsabilidade.</p></article>
+        </div>
+        <div class="cta-strip reveal"><div><span>Precisa de praticidade?</span><h3>Peça sem sair de casa.</h3></div><a href="https://wa.me/5585986271480?text=Olá%2C%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener">Chamar no WhatsApp <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section-pad bg-white">
+      <div class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end reveal"><div><span class="section-tag">Por dentro da Conviva</span><h2 class="section-title text-left">Um espaço feito para <span>você</span></h2></div><p class="max-w-md text-slate-500">Ambiente organizado, completo e preparado para receber sua família com todo cuidado.</p></div>
+        <div class="gallery-grid mt-12">
+          <button class="gallery-item wide reveal" data-image="img/3.jpeg" aria-label="Ampliar foto do interior da farmácia"><img src="img/3.jpeg" alt="Interior amplo e organizado da farmácia" loading="lazy"></button>
+          <button class="gallery-item tall reveal" data-image="img/9.jpeg" aria-label="Ampliar foto da sala de atendimento"><img src="img/9.jpeg" alt="Sala de atendimento farmacêutico" loading="lazy"></button>
+          <button class="gallery-item reveal" data-image="img/7.jpeg" aria-label="Ampliar foto da seção infantil"><img src="img/7.jpeg" alt="Seções infantil e de cuidados pessoais" loading="lazy"></button>
+          <button class="gallery-item reveal" data-image="img/12.jpeg" aria-label="Ampliar foto da equipe"><img src="img/12.jpeg" alt="Equipe e variedade de produtos" loading="lazy"></button>
+          <button class="gallery-item wide reveal" data-image="img/1.jpeg" aria-label="Ampliar foto da fachada"><img src="img/1.jpeg" alt="Fachada das Farmácias Conviva" loading="lazy"></button>
+          <button class="gallery-item reveal" data-image="img/8.jpeg" aria-label="Ampliar foto do consultório"><img src="img/8.jpeg" alt="Consultório para atendimento reservado" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section-pad bg-brand-navy text-white">
+      <div class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-3xl text-center reveal"><span class="section-tag light">Venha nos visitar</span><h2 class="section-title text-white">Sempre <span>perto de você</span></h2><p class="section-lead text-blue-100/70">Escolha a unidade mais próxima ou fale com a gente pelo WhatsApp.</p></div>
+        <div class="mt-14 grid overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl lg:grid-cols-[.9fr_1.1fr]">
+          <div class="p-7 sm:p-10 reveal-left">
+            <div class="flex items-start justify-between gap-4"><div><span class="unit-label">Unidade Fortaleza</span><h3 class="mt-3 font-display text-2xl font-bold">Farmácias Conviva Dr. Nahin</h3></div><span class="status"><i></i> Aberto hoje</span></div>
+            <div class="contact-list mt-9">
+              <div><span>Endereço</span><strong>Rua Tulipa, 500 - Lojas A e B<br>Barra do Ceará, Fortaleza - CE<br>CEP 60330-520</strong></div>
+              <div><span>Telefone e WhatsApp</span><a href="tel:+5585986271480">(85) 98627-1480</a></div>
+              <div><span>Telefone fixo</span><a href="tel:+558532841333">(85) 3284-1333</a></div>
+              <div><span>E-mail</span><a href="mailto:nahinsj@hotmail.com">nahinsj@hotmail.com</a></div>
+              <div><span>Dados cadastrais</span><strong>Farmácia Dr. Nahin LTDA<br>CNPJ 31.763.657/0001-34</strong></div>
+            </div>
+            <div class="mt-9 flex flex-wrap gap-3"><a class="btn-primary" href="https://wa.me/5585986271480" target="_blank" rel="noopener">Falar conosco</a><a class="btn-outline" href="https://www.google.com/maps/search/?api=1&query=Rua+Tulipa+500+Barra+do+Ceara+Fortaleza+CE" target="_blank" rel="noopener">Como chegar</a></div>
+            <div class="secondary-unit mt-9"><span>Também em Caucaia</span><p>Av. Ulisses Guimarães, 1617 A - Parque Leblon<br>CEP 61631-225 · CNPJ 31.763.657/0002-15</p></div>
+          </div>
+          <div class="min-h-[500px] reveal-right"><iframe title="Mapa da Farmácias Conviva Dr. Nahin em Fortaleza" src="https://www.google.com/maps?q=Rua%20Tulipa%20500%2C%20Barra%20do%20Cear%C3%A1%2C%20Fortaleza%20CE&output=embed" class="h-full min-h-[500px] w-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#04132c] px-5 py-9 text-blue-100/65">
+    <div class="mx-auto flex max-w-7xl flex-col gap-6 md:flex-row md:items-center md:justify-between"><div class="flex items-center gap-3"><span class="brand-mark small" aria-hidden="true"><i></i></span><span class="font-display font-bold text-white">Farmácias Conviva Dr. Nahin</span></div><p class="text-sm text-center">Farmácia Dr. Nahin LTDA · CNPJs 31.763.657/0001-34 e 31.763.657/0002-15<br>© <span id="year"></span> Todos os direitos reservados.</p><button id="privacy-open" class="text-sm font-semibold text-white transition hover:text-brand-red">Política de Privacidade</button></div>
+  </footer>
+
+  <a href="https://wa.me/5585986271480?text=Olá%2C%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Conversar pelo WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg></a>
+
+  <div id="privacy-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="privacy-title"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel"><button class="modal-close" data-close-modal aria-label="Fechar">×</button><span class="section-tag">Privacidade</span><h2 id="privacy-title" class="mt-3 font-display text-3xl font-bold text-brand-navy">Política de Privacidade</h2><div class="mt-6 space-y-4 text-sm leading-7 text-slate-600"><p>Este é um site institucional das Farmácias Conviva Dr. Nahin. Não coletamos, armazenamos ou compartilhamos dados pessoais por meio desta página.</p><p>Os links de contato direcionam para serviços externos, como WhatsApp, Google Maps, telefone e e-mail. Ao utilizá-los, aplicam-se as políticas de privacidade de cada plataforma.</p><p>Podemos utilizar dados técnicos anônimos e essenciais ao funcionamento do site, sem identificar individualmente os visitantes. Nenhum dado é comercializado.</p><p>Para dúvidas sobre esta política, entre em contato pelo e-mail nahinsj@hotmail.com.</p><p>Última atualização: julho de 2026.</p></div><button class="btn-primary mt-7 w-full" data-close-modal>Entendi</button></div></div>
+  <div id="lightbox" class="modal hidden" role="dialog" aria-modal="true" aria-label="Visualização da galeria"><div class="modal-backdrop" data-close-lightbox></div><button class="lightbox-close" data-close-lightbox aria-label="Fechar">×</button><img id="lightbox-image" src="" alt="Foto ampliada da Farmácias Conviva"></div>
+  <script src="script.js"></script>
+</body>
+</html>
