@@ -114,18 +114,34 @@
         <div class="mx-auto max-w-3xl text-center reveal"><span class="section-tag light">Venha nos visitar</span><h2 class="section-title text-white">Sempre <span>perto de você</span></h2><p class="section-lead text-blue-100/70">Escolha a unidade mais próxima ou fale com a gente pelo WhatsApp.</p></div>
         <div class="mt-14 grid overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl lg:grid-cols-[.9fr_1.1fr]">
           <div class="p-7 sm:p-10 reveal-left">
-            <div class="flex items-start justify-between gap-4"><div><span class="unit-label">Unidade Fortaleza</span><h3 class="mt-3 font-display text-2xl font-bold">Farmácias Conviva Dr. Nahin</h3></div><span class="status"><i></i> Aberto hoje</span></div>
-            <div class="contact-list mt-9">
-              <div><span>Endereço</span><strong>Rua Tulipa, 500 - Lojas A e B<br>Barra do Ceará, Fortaleza - CE<br>CEP 60330-520</strong></div>
-              <div><span>Telefone e WhatsApp</span><a href="tel:+5585986271480">(85) 98627-1480</a></div>
-              <div><span>Telefone fixo</span><a href="tel:+558532841333">(85) 3284-1333</a></div>
-              <div><span>E-mail</span><a href="mailto:nahinsj@hotmail.com">nahinsj@hotmail.com</a></div>
-              <div><span>Dados cadastrais</span><strong>Farmácia Dr. Nahin LTDA<br>CNPJ 31.763.657/0001-34</strong></div>
+            <div class="unit-tabs" role="tablist" aria-label="Unidades da Farmácia Conviva">
+              <button class="unit-tab active" type="button" role="tab" aria-selected="true" aria-controls="unit-barra" id="tab-barra" data-unit-tab="barra">Matriz Barra do Ceará</button>
+              <button class="unit-tab" type="button" role="tab" aria-selected="false" aria-controls="unit-iparana" id="tab-iparana" data-unit-tab="iparana">Conviva Iparana</button>
             </div>
-            <div class="mt-9 flex flex-wrap gap-3"><a class="btn-primary" href="https://wa.me/5585986271480" target="_blank" rel="noopener">Falar conosco</a><a class="btn-outline" href="https://www.google.com/maps/search/?api=1&query=Rua+Tulipa+500+Barra+do+Ceara+Fortaleza+CE" target="_blank" rel="noopener">Como chegar</a></div>
-            <div class="secondary-unit mt-9"><span>Também em Caucaia</span><p>Av. Ulisses Guimarães, 1617 A - Parque Leblon<br>CEP 61631-225 · CNPJ 31.763.657/0002-15</p></div>
+
+            <div id="unit-barra" class="unit-panel active" role="tabpanel" aria-labelledby="tab-barra" data-unit-panel="barra">
+              <div class="flex items-start justify-between gap-4"><div><span class="unit-label">CONVIVA BARRA DO CEARÁ</span><h3 class="mt-3 font-display text-2xl font-bold">Farmácias Conviva Dr. Nahin</h3></div><span class="status"><i></i> Aberto hoje</span></div>
+              <div class="contact-list mt-9">
+                <div><span>Endereço</span><strong>Rua Tulipa, 500 - Lojas A e B<br>Barra do Ceará, Fortaleza - CE<br>CEP 60330-520</strong></div>
+                <div><span>Telefone e WhatsApp</span><a href="tel:+5585986271480">(85) 98627-1480</a></div>
+                <div><span>Telefone fixo</span><a href="tel:+558532841333">(85) 3284-1333</a></div>
+                <div><span>E-mail</span><a href="mailto:nahinsj@hotmail.com">nahinsj@hotmail.com</a></div>
+                <div><span>Dados cadastrais</span><strong>Farmácia Dr. Nahin LTDA<br>CNPJ 31.763.657/0001-34</strong></div>
+              </div>
+              <div class="mt-9 flex flex-wrap gap-3"><a class="btn-primary" href="https://wa.me/5585986271480" target="_blank" rel="noopener">Falar conosco</a><a class="btn-outline" href="https://www.google.com/maps/search/?api=1&query=Rua+Tulipa+500+Barra+do+Ceara+Fortaleza+CE" target="_blank" rel="noopener">Como chegar</a></div>
+            </div>
+
+            <div id="unit-iparana" class="unit-panel" role="tabpanel" aria-labelledby="tab-iparana" data-unit-panel="iparana" hidden>
+              <div class="flex items-start justify-between gap-4"><div><span class="unit-label">CONVIVA IPARANA</span><h3 class="mt-3 font-display text-2xl font-bold">Farmácias Conviva Iparana</h3></div><span class="status"><i></i> Aberto hoje</span></div>
+              <div class="contact-list mt-9">
+                <div><span>Endereço</span><strong>Avenida Ulisses Guimarães, 1617 A<br>Parque Leblon, Caucaia - CE</strong></div>
+                <div><span>WhatsApp</span><a href="tel:+5585981013130">(85) 98101-3130</a></div>
+                <div><span>Atendimento</span><strong>Medicamentos, perfumaria, higiene e cuidado para toda a família.</strong></div>
+              </div>
+              <div class="mt-9 flex flex-wrap gap-3"><a class="btn-primary" href="https://wa.me/5585981013130" target="_blank" rel="noopener">Falar conosco</a><a class="btn-outline" href="https://www.google.com/maps/search/?api=1&query=Avenida+Ulisses+Guimaraes+1617+A+Parque+Leblon+Caucaia+CE" target="_blank" rel="noopener">Como chegar</a></div>
+            </div>
           </div>
-          <div class="min-h-[500px] reveal-right"><iframe title="Mapa da Farmácias Conviva Dr. Nahin em Fortaleza" src="https://www.google.com/maps?q=Rua%20Tulipa%20500%2C%20Barra%20do%20Cear%C3%A1%2C%20Fortaleza%20CE&output=embed" class="h-full min-h-[500px] w-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+          <div class="min-h-[500px] reveal-right"><iframe id="unit-map" title="Mapa da unidade Conviva Barra do Ceará" src="https://www.google.com/maps?q=Rua%20Tulipa%20500%2C%20Barra%20do%20Cear%C3%A1%2C%20Fortaleza%20CE&output=embed" class="h-full min-h-[500px] w-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
         </div>
       </div>
     </section>
